@@ -30,7 +30,7 @@
 }
 .slides,
 .slides > li,
-.flex-control-nav,
+/*.flex-control-nav,*/
 .flex-direction-nav {
   margin: 0;
   padding: 0;
@@ -189,7 +189,7 @@ html[xmlns] .flexslider .slides {
 .flex-pauseplay a .flex-play:before {
   content: '\f003';
 }
-.flex-control-nav {
+/*.flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -40px;
@@ -200,8 +200,8 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   zoom: 1;
   *display: inline;
-}
-.flex-control-paging li a {
+}*/
+./*flex-control-paging li a {
   width: 11px;
   height: 11px;
   display: block;
@@ -262,7 +262,7 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
-@media screen and (max-width: 860px) {
+/*@media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
@@ -271,4 +271,4 @@ html[xmlns] .flexslider .slides {
     opacity: 1;
     right: 10px;
   }
-}
+}*/
